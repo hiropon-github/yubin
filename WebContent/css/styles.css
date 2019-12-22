@@ -1,0 +1,110 @@
+body {
+	font-family: "ＭＳ ゴシック",sans-serif;
+}
+
+select {
+	width: 300px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00BCD4;
+}
+
+.box {
+	float: left;
+	position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box:hover {
+	background: #00bcd4;
+    color: white;
+}
+
+.boxContainer {
+	overflow: hidden;
+}
+
+.boxContainer:before,
+.boxContainer:after {
+	content: "";
+	display: table;
+}
+
+/*
+.boxContainer:after {
+	clear: both;
+}
+*/
+.boxContainer {
+	zoom: 1;
+}
+
+.boxYubinSelect {
+	margin: 0px 10px 10px 10px;
+}
+
+.square_btn{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+
+  }
+
+.square_btn:hover {
+    background: #00bcd4;
+    color: white;
+    cursor: default;
+}
+
+.postalcode {
+	color: red;
+}
+.fnt {
+	font-size: 20px;
+	margin: 0px 0px 5px 0px;
+}
+
+.yubintop {
+	width: 500px;
+	padding: 10px 0px 10px 5px;
+	margin: 10px 0px 0px 0px;
+	border: 2px solid #000000;
+}
+
+.yubinmain {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.yubinsub {
+	font-weight: bold;
+}
+
+.boxall {
+	width: 500px;
+	height: 350px;
+	padding: 10px 0px 10px 5px;
+	margin: 0px 0px 10px 0px;
+	border-left: 2px solid #000000;
+	border-right: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+}
